@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 Task: CSS Priority</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        
+        h1 {
+            color: purple;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        thead {
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="Main-header">
+        <h1 style="color: green; text-decoration: underline;">Tour And Travelers</h1>
+        
+        <p style="text-align: center; font-style: italic;">Book your trip and enjoy Vacation and Holidays</p>
+    </div>
+
+    <ul id="main-nav" style="text-align: center; list-style: none;">
+        <li><a href="https://www.holidify.com/country/india/places-to-visit.html" target="_blank">List of Places</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div id="form">
+        <h3 style="text-align: center;"><u>Booking Form</u></h3>
+        <p><b>Please fill the form details below</b></p>
+        
+        <form action="process.php">
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter name">
+            </div>
+
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="enter email">
+            </div>
+
+            <div>
+                <label for="place">Place</label><br>
+                <textarea name="Place" id="place" rows="4"></textarea>
+            </div>
+
+            <div>
+                <label for="sex">Sex</label><br>
+                <select name="sex" id="sex">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <button type="submit">Submit</button>
+            
+            <button type="reset" style="background-color: red;">Reset</button>
+        </form>
+    </div>
+
+    <div id="details">
+        <h3 style="text-align: center;"><u>Details</u></h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Package</th>
+                    <th>Days</th>
+                </tr>
+            </thead>
+            <tbody>
+                 <tr>
+                     <td>1</td>
+                     <td>25000</td>
+                     <td>2</td>
+                 </tr>
+                 <tr>
+                    <td>2</td>
+                    <td>45000</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer style="text-align: center; margin-top: 20px; padding: 10px; background-color: #ddd;">
+        Copyright &copy; 2020
+    </footer>
+
+</body>
+</html>
