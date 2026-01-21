@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            background-color: gray;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            display: flex;
+        }
+        .form{
+            height:70vh;
+            width:100vh;
+            display: block;
+            margin:auto;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            margin-left: 50px;
+        }
+        input,button{
+            padding: 10px 20px;
+            border-radius: 20px;
+            outline: auto;
+            border: 1px;
+            border-style: dotted;
+        }
+        button{
+            background-color: green;
+            color:white;
+            padding:10px,30px;
+            margin-top: 10px;
+            cursor: pointer;
+            border: none;
+        }
+        label{
+            font-size: large;
+            font-weight: bold;
+        }
+        p{
+            font-weight:bold;
+            font-size: 30px;
+        }
+        div{
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <form action="/index.html" class="form">
+        <p> Log In Form</p>
+        <div>
+            <label for="username"> Username</label>
+            <input type="text" class ="username" id="username" placeholder="Enter your username">
+        </div>
+        <div>
+            <label for="username"> mobile</label>
+            <input type="text" class ="moble" id="mobile" placeholder="Enter your Mobile">
+        </div>
+        <div>
+            <label for="username"> Description</label>
+            <input type="text" class ="Description" id="Description" placeholder="Enter your Description">
+        </div>
+        <div>
+            <label for="username"> Password</label>
+            <input type="text" class ="Password" id="Password" placeholder="Enter your Password">
+        </div>
+        <button> Log In</button>
+    </form>
+</body>
+</html>
