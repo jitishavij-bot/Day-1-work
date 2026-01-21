@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 1 Task: HTML Tags</title>
+</head>
+<body>
+
+    <h1>ABC</h1>
+    <h2>BCD</h2>
+    <h3>Thhahh</h3>
+    <h4>Thhgg</h4>
+    <h5>Tjhh</h5>
+    <h6>Hi</h6>
+
+    <p>
+        standard paragraph tag. It adds space above and below the text.
+        Inside this paragraph, I am using a <span>span tag</span>. 
+        Note that the span tag does not start a new line because it is an <strong>inline element</strong>.
+    </p>
+
+    <p>
+        Click here to visit a website: <a href="https://www.google.com" target="_blank">This is an Anchor (Link) Tag</a>.
+    </p>
+
+    
+
+    <p>Below is an image loaded from a placeholder URL:</p>
+    <img src="https://via.placeholder.com/150" alt="A placeholder image" width="150" height="150">
+
+
+    <h3>Lists</h3>
+    
+    <h4>Unordered List (ul)</h4>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h4>Ordered List (ol)</h4>
+    <ol>
+        <li>Wake up</li>
+        <li>Code HTML</li>
+        <li>Sleep</li>
+    </ol>
+
+    <hr>
+
+    <h3>Div Containers</h3>
+    <div style="background-color: #eeeeee;">
+        This text is inside a DIV. A div is a block-level container. 
+        I added a tiny inline background color just so you can see the shape of the box, 
+        but usually, we style this with CSS.
+    </div>
+
+    <hr>
+
+    <h3>Data Table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Alice</td>
+                <td>Developer</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bob</td>
+                <td>Designer</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h3>Registration Form</h3>
+    <form action="/submit-data">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">I agree to the terms</label><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="india">India</option>
+        </select><br><br>
+
+        <label for="bio">Bio:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="30"></textarea><br><br>
+
+        <button type="submit">Submit Form</button>
+    </form>
+
+    <br><br><br>
+</body>
+</html>
