@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Hotel WEbsite</title>
+</head>
+<body>
+    <nav class="flex items-center justify-between p-4 border-b-1 border-gray-200 shadow-lg">
+        <div class="flex items-center justify-between gap-10">
+           <img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2" alt="">
+           <a href="/index.html"> Shop Travel</a>
+        </div>
+        <div class="flex items-center justify-between gap-10">
+            <button class="text-blue-600 p-2 hover:bg-blue-100 border rounded-full">Open App</button> 
+            <a href="/" class="flex items-center justify-between gap-4 hover:bg-blue-100 " >INR <img class="h-4" src="https://a.travel-assets.com/egds/marks/flags/in.svg" alt=""> </a>
+            <a href="#" class="hover:bg-blue-100 ">List Your Property</a>
+            <a href="#" class="hover:bg-blue-100 ">Support</a>
+            <a href="#" class="hover:bg-blue-100 ">Trips</a>
+            <img class="h-6"src="https://cdn-icons-png.flaticon.com/512/685/685887.png" alt="">
+            <a href="#" class="hover:text-blue-100"> SignIn</a>
+        
+
+        </div>  
+    </nav>
+    <div >
+        <p class="text-violet px-20 py-10 font[400] m-6 text-5xl"> Search Hotels</p> 
+    </div>
+    <div class="flex justify-center items-center gap-10  border-black-600">
+       <div class=" flex justify-center items-center gap-2 border border-gray-200 rounded-2xl px-10 py-4 w-[25vw]">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRavj9_Ks_pfBuHO-3VMC8kxky4mR6ntn-iCg&s" class="w-4" alt="">
+         <input class="outline-none"type="text" class="Search" id="Search" placeholder="Where To?">
+       </div>
+       <div class=" flex  justify-center items-center gap-2 border border-gray-200 rounded-2xl px-10 py-4 w-[25vw]">
+         <img src="/" class="w-4" alt="">
+         <input class="outline-none" type="date" class="Search" id="Search" placeholder="Date">
+       </div>
+       <div class=" flex  justify-center items-center gap-2 border border-gray-200 rounded-2xl px-10 py-4 w-[25vw]">
+         <img src="https://st5.depositphotos.com/27657544/65291/v/450/depositphotos_652910022-stock-illustration-person-wearing-cap-backpack-denoting.jpg" class="w-8" alt="">
+         <input class="outline-none"type="text" class="Search" id="Search" placeholder="Travellers?">
+       </div>
+       <button class=" bg-blue-600 text-white-600 px-2 py-6 rounded-full cursor-pointer w-[10vw]"> Search </button>
+       
+    </div>
+    <div class="flex items-center gap-4 px-20 py-4">
+        <input class="px-20"type="checkbox" class="hello" id="yes" >
+        <p class="text-black-200 ">Add a flight</p>
+    </div>
+    <p class="text-black-200 font[400]  items-center justify-center text-5xl pl-10 py-5">Ideas for your next trip</p>
+    <div class="p-5 flex justify-center gap-4">
+   
+       <div class=" flex rounded-2xl border border-gray-200 flex  flex-col w-[55%] h-[40vh] ">
+          <img class ="rounded-2xl h-[320px]"src="https://a.travel-assets.com/travel-assets-manager/8b9c5cbf-f527-49fb-b881-8d7037952a89/assurance_4_562x240-2x.jpg?impolicy=fcrop&w=600&h=257&q=medium">
+          <p class="pl-4 pt-3"> Because flexibility matters</p>
+          <p class="pl-4 pt-3"> Free cancellation on most hotels</p>
+
+        </div>
+        <div class="flex flex-col g w-[45%] gap-10">
+
+            <div class="flex rounded-2xl border border-gray-200 flex h-[20vh]">
+                <img class="rounded-2xl h-[190px] " src=https://thumbs.dreamstime.com/b/friends-walking-together-sunset-back-view-two-park-sunrise-warm-light-background-85645609.jpg>
+                <div>
+                    <p class="text-4xl">Last minute deals are available</p>
+                    <p class="text-2xl" >Fnd your next gateway</p>
+                </div>
+            </div>
+
+            <div class="flex rounded-2xl border border-gray-200 flex  h-[20vh] ">
+                <img class="rounded-2xl h-[190px] " src="https://t4.ftcdn.net/jpg/02/65/95/03/360_F_265950342_YCOswwfJG3ftDtFEYYqnEA6vd4eBSXbq.jpg">  
+                <div>
+                    <p class="text-4xl">When you are ready to get away,we'll be ready to inspire you</p>
+                    <p lass="text-2xl"> Trip ideas and inspiration </p>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <p class="text-black-200 font[400]  items-center justify-center text-5xl pl-10 py-5">Explore stay in trending destinations</p>
+    <div class="flex gap-6 overflow-x-auto pb-4">
+
+        <!-- Card 1 -->
+        <div class="min-w-[280px] bg-white rounded-xl border shadow-sm overflow-hidden hover:shadow-md transition">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQfGkWVO2vDrUVKyyQDRDoI-KAYgb9WkrDzA&s
+            alt="San Simeon"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-4">
+            <h3 class="font-semibold text-gray-900">San Simeon</h3>
+            <p class="text-sm text-gray-500">United States of America</p>
+          </div>
+        </div>
+  
+        <!-- Card 2 -->
+        <div class="min-w-[280px] bg-white rounded-xl border shadow-sm overflow-hidden hover:shadow-md transition">
+          <img
+            src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29"
+            alt="San Francisco"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-4">
+            <h3 class="font-semibold text-gray-900">San Francisco</h3>
+            <p class="text-sm text-gray-500">United States of America</p>
+          </div>
+        </div>
+  
+        <!-- Card 3 -->
+        <div class="min-w-[280px] bg-white rounded-xl border shadow-sm overflow-hidden hover:shadow-md transition">
+          <img
+            src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e"
+            alt="Vancouver"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-4">
+            <h3 class="font-semibold text-gray-900">Vancouver</h3>
+            <p class="text-sm text-gray-500">Canada</p>
+          </div>
+        </div>
+  
+        <!-- Card 4 -->
+        <div class="min-w-[280px] bg-white rounded-xl border shadow-sm overflow-hidden hover:shadow-md transition">
+          <img
+            src="https://images.unsplash.com/photo-1517935706615-2717063c2225"
+            alt="Toronto"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-4">
+            <h3 class="font-semibold text-gray-900">Toronto</h3>
+            <p class="text-sm text-gray-500">Canada</p>
+          </div>
+        </div>
+        <!---Card 5-->
+        <div class="min-w-[280px] bg-white rounded-xl border shadow-sm overflow-hidden hover:shadow-md transition">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/474000/474240-Left-Bank-Paris.jpg"
+            alt="Paris"
+            class="h-44 w-full">
+            <div class="p-4">
+                <h3 class="font-semibold text-gray-900">Paris</h3>
+                <p class="text-sm text-gray-500">France</p>
+            </div>
+        </div>
+    </div>
+    >
+
+    
+    <!-- Two Column Layout -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+      <!-- LEFT COLUMN -->
+      <div class="space-y-10">
+
+        <section>
+          <h2 class="text-xl font-semibold mb-3">
+            Tips for Booking a Hotel
+          </h2>
+          <p class="text-gray-600 leading-relaxed">
+            No holiday is complete without the right hotel. If you're looking
+            to plan an unforgettable trip, you'll need to find the right place
+            to stay. Learn how you can book the right hotel for your needs
+            whether you're taking the family on holiday, travelling with
+            someone special or just taking some time away for yourself.
+          </p>
+        </section>
+
+        <section>
+          <h3 class="text-lg font-semibold mb-2">
+            How to book a hotel?
+          </h3>
+          <p class="text-gray-600 leading-relaxed">
+            When you're looking to book a hotel, we've got you covered. With
+            Expedia, all you have to do is input your travel dates and your
+            destination, and we'll show you some of the best hotels available.
+            You can add additional search filters to sort your results even
+            further whether you're looking for a cheap hotel room or want to
+            splurge on something more luxurious.
+          </p>
+          <p class="mt-3 text-gray-600">
+            You'll find
+            <a href="#" class="text-blue-600 underline">Hotels in Mumbai</a>,
+            <a href="#" class="text-blue-600 underline">Hotels in Delhi</a> and
+            <a href="#" class="text-blue-600 underline">Hotels in Bangalore</a>
+            among countless others across the world.
+          </p>
+        </section>
+
+        <section>
+          <h3 class="text-lg font-semibold mb-2">
+            What are the most important things when choosing a hotel?
+          </h3>
+          <p class="text-gray-600 leading-relaxed">
+            When you're choosing your hotel, it's important to consider what
+            kind of holiday experience you're looking to enjoy. Family
+            travellers will need plenty of room, while couples may focus more
+            on amenities like hot tubs.
+          </p>
+        </section>
+
+        <section>
+          <h3 class="text-lg font-semibold mb-2">
+            How far in advance should I book a hotel?
+          </h3>
+          <p class="text-gray-600 leading-relaxed">
+            Your best bet is to book a little in advance. If you book too far
+            ahead, prices may be higher. Wait too long, however, and prices may
+            also increase.
+          </p>
+        </section>
+
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="space-y-10">
+
+        <section>
+          <h3 class="text-lg font-semibold mb-2">
+            How can I find the cheapest hotels?
+          </h3>
+          <p class="text-gray-600 leading-relaxed">
+            The cheapest hotels are easy to find if you know what factors to
+            consider. The time of year you travel plays a big role, with cheap
+            hotel rooms being more common during the off-season.
+          </p>
+        </section>
+
+        <section>
+          <h3 class="text-lg font-semibold mb-2">
+            How can I find some of the best deals on hotels?
+          </h3>
+          <p class="text-gray-600 leading-relaxed">
+            Hotel deals are easy to find when you use Expedia. All you have to
+            do is use search filters like free cancellation and refundable
+            options. Expedia members may also get extra discounts.
+          </p>
+        </section>
+
+        <section>
+          <h3 class="text-lg font-semibold mb-2">
+            Why should I book a hotel with Expedia?
+          </h3>
+          <p class="text-gray-600 leading-relaxed">
+            Booking with Expedia makes planning a holiday easy. You can search
+            a massive array of hotels, book flights, and even bundle your hotel
+            and flight together for extra savings.
+          </p>
+        </section>
+
+        <section>
+          <h3 class="text-lg font-semibold mb-2">
+            Are hotels fully refundable on Expedia?
+          </h3>
+          <p class="text-gray-600 leading-relaxed">
+            Many hotels on Expedia offer fully refundable options. Always check
+            the cancellation policy before booking to make sure it fits your
+            travel plans.
+          </p>
+        </section>
+
+      </div>
+
+    </div>
+  </div>
+  
+  <div class=" mx-auto px-2 py-12">
+
+    <h2 class="text-2xl font-bold mb-2">
+      More trip options
+    </h2>
+
+ 
+    <a href="#" class="text-blue-600 font-medium border-b-2 border-blue-600 inline-block pb-1 mb-6">
+      Explore a world of travel with Expedia
+    </a>
+
+    <hr class="mb-8">
+
+
+    <h3 class="text-lg font-semibold mb-4">
+      Top domestic destinations
+    </h3>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-20 gap-y-2">
+
+
+      <div class="space-y-2">
+        <a href="#" class="block text-blue-600 hover:underline">Nangi Hotels</a>
+        <a href="#" class="block text-blue-600 hover:underline">Mahabaleshwar Hotels</a>
+        <a href="#" class="block text-blue-600 hover:underline">Delhi Hotels</a>
+        <a href="#" class="block text-blue-600 hover:underline">Bangalore Hotels</a>
+        <a href="#" class="block text-blue-600 hover:underline">South Goa Hotels</a>
+      </div>
+
+      <div class="space-y-2">
+        <a href="#" class="block text-blue-600 hover:underline">Goa Hotels</a>
+        <a href="#" class="block text-blue-600 hover:underline">Kutta Hotels</a>
+        <a href="#" class="block text-blue-600 hover:underline">Nandi Hills Hotels</a>
+        <a href="#" class="block text-blue-600 hover:underline">Ooty Hotels</a>
+        <a href="#" class="block text-blue-600 hover:underline">Manali Hotels</a>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="p-5 flex justify center border border gray-800">
+    <div class="flex rounded-2xl border border-gray-200 flex  gap-10">
+        <img class="h-[300px] rounded-2xl" src="https://www.khaosok.com/wp-content/uploads/2016/07/CoconutPalm.jpg">
+        <div class="flex-col gap-10">
+            <p class="text-5xl text-gray-800"> Go further with the Expedia App</p> 
+            <br>
+            <br>
+        <p clas="text-lg font-semibold mb-2">Save on select hotels and earn double points when you book on the app. Our app deals help you to save on trips so you can travel more and manage it all on the go.</p>
+        <br>
+        <br>
+        <p class="text-lg font-semibold mb-2"> Scan the QR code with your device camera and download our app
+        </p>
+        </div>
+        <img class="flex-row w-[20%] h-[70%]"src="https://www.imgonline.com.ua/examples/qr-code-url.png">
+        
+
+    </div>
+    
+  </div>
+  <div class=" rounded-2xl bg-blue-50 h-[100vh]">
+    <img class="pl-50 pt-5 w-[25%]"src= "https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg">
+    <br>
+    <br>
+    <div class="flex gap-30 " >
+        <br>
+        <div class="pl-20">
+            <p class="text-black-200 font-semibold text-2xl"> Company</p>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">About us</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Jobs</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">List your property</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Partnerships</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Newsroom</a>
+        </div>
+        <div class="pl-20" >
+            <p class="text-black-200 font-semibold text-2xl"> Explore</p>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">India travel guide</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Hotels in India</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Holiday rentals in India</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Holiday packages in India</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Domestic flights</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Car hires in India</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">All accomodation types</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Travel blog</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Rwards with one key</a>
+            
+        </div>
+        <div class="pl-20" >
+            <p class="text-black-200 font-semibold text-2xl"> Policies</p>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Privacy</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Cookies</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Terms of Use</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">One key"terms and conditions</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Content guideliness</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Car hires in India</a>
+            <br>
+        </div>
+        <div class="pl-20" >
+            <p class="text-black-200 font-semibold text-2xl"> Help</p>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Support</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Change or cancel your hotel</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Refund process</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">Book a flight</a>
+            <br>
+            <a href="#" class="block text-blue-600 hover:underline">International travel</a>
+            <br>
+           
+        </div>
+        
+    </div>
+    <div class="h-[20px] w-[90%] mx-10  border-b-1 border-gray-300">
+        
+    </div>
+    <img class="py-10 pb-5 pl-40 pt-15 h-[200px] rounded-2xl" src="https://vacayhomeconnect.com/wp-content/uploads/2023/06/Screen-Shot-2023-05-08-at-3.04.14-PM-e1683576397235-1024x769-2640355.png">
+    <br>
+    
+     <p class="text-xs text-black-200 pl-100">© 2026 Expedia, Inc., an Expedia Group company. All rights reserved. Expedia and the Expedia Logo are trademarks or registered trademarks of Expedia, Inc.</p>
+</div>
+            
+</div>
+
+    
+    
+   
+</body>
+</html>
